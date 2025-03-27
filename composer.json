@@ -1,0 +1,28 @@
+{
+    "name": "gsoftware/cloudsms-php",
+    "description": "A PHP SDK for the CloudSMS API",
+    "type": "library",
+    "keywords": ["sms", "api", "sdk", "cloudsms", "messaging"],
+    "homepage": "https://cloudsms.gr",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GSoftware",
+            "email": "info@gsoftware.gr",
+            "homepage": "https://cloudsms.gr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSoftware\\CloudSMS\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+} 
